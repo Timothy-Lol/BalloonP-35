@@ -35,12 +35,10 @@ function draw() {
   if(keyDown(LEFT_ARROW)){
     updateHeight(-10,0)
     balloon.addAnimation("hotAirBalloon",balloonImage2);
-    balloon.x = balloon.x -1
   }
   else if(keyDown(RIGHT_ARROW)){
     updateHeight(10,0)
     balloon.addAnimation("hotAirBalloon",balloonImage2);
-    balloon.x = balloon.x +1
   }
   else if(keyDown(UP_ARROW)){
     updateHeight(0,-10);
